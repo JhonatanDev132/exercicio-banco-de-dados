@@ -41,7 +41,7 @@ AND EXISTS (
     SELECT 1
     FROM professores
     WHERE id = professores.id
-      AND atuacao != 'desenvolvimento'
+      AND atuacao = 'desenvolvimento'
 );
 
 ```
